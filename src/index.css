@@ -1,0 +1,127 @@
+body{
+  margin:0px;
+  padding: 0px;
+  background: linear-gradient(to right, #000428, #004e92); 
+  height: 100vh;
+  font-family: Courier, Arial, Tahoma, Serif;
+  /* font-family: Verdana, Arial, Tahoma, Serif; */
+}
+
+root{
+  display: flex;
+  justify-content: center;
+}
+
+.app-container{
+  width: 65%;
+  min-height: 80vh;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  box-shadow: 0px 0px 15px 3px rgb(132, 132, 114);
+  background-color: lightblue;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+
+.form{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3a3b42;
+  margin: 10px;
+  padding: 2px 2px 2px 15px;
+  border-bottom:  1px solid black;
+  border-radius: 8px;
+  
+}
+
+.form input{
+    flex-basis: 90%;
+    line-height: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    
+}
+
+.form img{
+  /* color: white; */
+  background-color: white;
+}
+
+.form button{
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 12px 24px 12px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  transition: transform 200ms,background 200ms;
+  background: white;
+  color: #000000;
+  box-shadow: 0 0 0 3px #000000 inset;
+
+}
+
+.form button:hover{
+  transform: translateY(-2px);
+}
+
+.container{
+  margin-top: 10px;
+  border-top: 1px solid;
+  /* border: 1px solid blue; */
+}
+
+.todolist{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: baseline; */
+  padding: 15px;
+}
+
+.todos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  background-color: #3a3b42;
+  margin: 2px 0px;
+  padding: 5px;
+  color: white;
+  transition: all 1s ease-in-out ;
+  font-size: 25px;
+}
+
+.todos:hover{
+  background-color: #686970;
+  transform: scale(1.03);
+}
+
+.todos img{
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+}
+
+.todos div>*{
+  margin: 0 10px;
+}
+
+.todos div{
+  display: flex;
+  align-items: center;
+}
