@@ -4,23 +4,24 @@ body{
   background: linear-gradient(to right, #000428, #004e92); 
   height: 100vh;
   font-family: Courier, Arial, Tahoma, Serif;
-  /* font-family: Verdana, Arial, Tahoma, Serif; */
 }
 
-root{
+#root{
   display: flex;
   justify-content: center;
 }
 
+/* App Component Styles */
+
 .app-container{
   width: 65%;
   min-height: 80vh;
+  border-radius: 8px;
   margin: auto;
   margin-top: 40px;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   box-shadow: 0px 0px 15px 3px rgb(132, 132, 114);
   background-color: lightblue;
 }
@@ -30,6 +31,8 @@ h1{
   color: white;
   margin-top: 40px;
 }
+
+/* AddForm Component Styles */
 
 .form{
   display: flex;
@@ -55,7 +58,6 @@ h1{
 }
 
 .form img{
-  /* color: white; */
   background-color: white;
 }
 
@@ -80,17 +82,16 @@ h1{
   transform: translateY(-2px);
 }
 
+/* ToDoList Component Styles */
+
 .container{
   margin-top: 10px;
   border-top: 1px solid;
-  /* border: 1px solid blue; */
 }
 
 .todolist{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: baseline; */
   padding: 15px;
 }
 
