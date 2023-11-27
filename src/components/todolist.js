@@ -1,4 +1,4 @@
-// Passing the Props & destucturing it in the ToDoList fuctional component parameters itself
+// Passing the Props & destucturing it in the ToDoList fuctional component parameters itself.
 
 export default function ToDoList({toDos, triggerUpdate, handleDelete, handleChecked}){
     // This component is for rendering all the toDos

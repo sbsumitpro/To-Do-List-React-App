@@ -1,6 +1,6 @@
 // Passing the Props & destucturing it in the AddForm fuctional component parameters itself
 
-// This is basically the add task/ update task form of the whole application
+// This is basically the add task/ update task form of the whole application.
 export default function AddForm({task,setTask, handleAdd, handleUpd, titleRef, isUpdate,taskInd}){
 
     return(
