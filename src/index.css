@@ -1,5 +1,6 @@
 body{
   margin:0px;
+  min-width: 560px;
   padding: 0px;
   background: linear-gradient(to right, #000428, #004e92); 
   height: 100vh;
@@ -11,6 +12,16 @@ body{
   justify-content: center;
 }
 
+@media only screen and (max-width: 767px) {
+  .app-container{
+    width: 100%;
+  }
+  h1{
+    width: 50%;
+    font-size: 30px;
+    margin: auto;
+  }
+}
 /* App Component Styles */
 
 .app-container{
